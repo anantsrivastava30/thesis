@@ -43,7 +43,7 @@ We manage the data files on the cluster and use two system for the designing of 
 		&No. of Cores : 4\\
 		\hline
 	\end{tabular}
-	\caption{system configurations}
+	\caption{System Configurations}
 	\label{tab:system configurations}
 \end{table}
 
@@ -75,7 +75,7 @@ We run six experiments over the two methods described in Algorithm~\ref{alg:pipe
 		Negative & FN & TN \\	
 		\hline
 	\end{tabular}
-	\caption{Classification results between different classifiers}
+	\caption{The Confusion Matrix}
 	\label{tab:confusion_matrix}
 \end{table}
 
@@ -115,7 +115,7 @@ All these measures provide relevant information about the classification and no 
 
 There are some standard performance evaluation measures for classification study. Bigger values usually mean stronger classification power. We also computed the area-under-the-curve (AUC) of the receiver operating characteristic (ROC). The ROC is the average value of sensitivity for all the possible values of specificity. Such an index is especially useful in a comparative study of two diagnostic tests. If two tests are to be compared, it is desirable to compare the entire ROC curve rather than at a particular point~\citep{swets1979roc}. The maximum AUC=1 means that the diagnostic test is perfect in the differentiation between the diseased and stable. This happens when the distribution of test results for the diseased and stable do not overlap. AUC = 0.5 means the chance of discrimination that curve located on diagonal line in ROC space. Using these measures of analysis we first report the comparison between different sets of feature, followed by a thorough analysis on both the proposed pipelines. We then list the AUC comparison in the end.
 
-\subsection{Comparison between sets of features.}
+\subsection{Comparison between Sets of Features.}
 We tested our best scores across the features we have have in store for classification. In this comparison we put emphasis on the features we are including in classification. We tested both the pipelines using (1).Voxel information from the image (2). Voxels combined with rich genetic scores described in section.\ref{sec:Results} (3). A combination of (2) and the other demographic information. We observe that (3). gives very good results in AD vs. CU $ \sim 98\% $. Only in CU vs. LMCI (2) performs better with $ \sim 82 \% $    
 \begin{table}[!h]
 	\centering
@@ -139,7 +139,7 @@ We tested our best scores across the features we have have in store for classifi
 		& EMCI vs. LMCI	&$ 51.96 $&$ 59.05 $&$ 59.05 $\\
 		\hline
 	\end{tabular}
-	\caption{Classification results between different feat F1-measures}
+	\caption[Comparison Results between Sets of Features]{Comparison results between different sets of features. The measure used in F1-Score, three different sets of features are used to compare the effectiveness of Voxel, ~\apoe{1},~\apoe{2}, FAQ and age/gender in classification.}
 	\label{tab:comparision_features}
 \end{table}
 
@@ -187,16 +187,16 @@ As indicated in Table.~\ref{tab:comparision_classifiers} the \F~Score of AD vs C
 		& NPV			&$ 92.46 $&$ 87.64 $&$ 77.85 $&$ 63.48 $&$ 74.40 $&$ 53.79 $\\				
 		\hline
 	\end{tabular}
-	\caption{Classification results between different classifiers}
+	\caption[Classification Results between Classifiers using Feature Extraction]{Classification results between different classifiers. Popular classifiers are used to perform analysis on the best feature set.}
 	\label{tab:comparision_classifiers}
 \end{table}
 
 \textit{Comparing different Dimension reduction techniques,}\\
 As indicated in Table.~\ref{tab:comparision_dimension_reduction} the \F~Score of AD vs CU is best when the dimensions are reduced using singular valued decomposition (SVD) with \acc{97} \F~Score. The high Recall and Specificity implies AD vs CU is well classified. Again we believe the \FDGPET~biomarker along with \apoe{2} and \apoe{3} the two alleles of Apolipoprotein E and the Functional Activities Questionnaire (FAQ) are extremely sensitivity if classifying between \Alzheimers and Normal Control. 
-Column two in \Tbl{tab:comparision_dimension_reduction} shows that the subjects in AD vs EMCI are separable to a good extent with \F~Score of \acc{83.3} in case of Principle Component Analysis (PCA) and a Recall of \acc{84.5} and Specificity of \acc{85.7} shows that both the classes have been evenly separated. 
+Column two in Table.\ref{tab:comparision_dimension_reduction} shows that the subjects in AD vs EMCI are separable to a good extent with \F~Score of \acc{83.3} in case of Principle Component Analysis (PCA) and a Recall of \acc{84.5} and Specificity of \acc{85.7} shows that both the classes have been evenly separated. 
 Kernel PCA~\citep{mika1998kernel} performed the best in remaining experiments. With CU vs LMCI the group separation is of one i.e. the disease progression there is one stage in between CU and LMCI and we observe in column 5 of Table.~\ref{tab:comparision_dimension_reduction} the \F~Score is \acc{80}. With AD vs LMCI and CU s EMCI with Kernel PCA the \F~Score is \acc{76.65} and \acc{71.46} respectively. The last experiment (LMCI vs EMCI) \F~Score of \acc{60.3} is the most difficult to classify many good and popular classifiers failed to classify the complex nature of early Mild impairment (EMCI) and impairment (LMCI). EMCI and LMCI as described in Section~\ref{subjects} are derived from the Mild Cognitive Impairment (MCI) stage in ADNI1 and the participants reported a subjective memory concern the difference in EMCI and LMCI is decided by the Wechsler Memory Scale Logical (WMS). We believe there is no clear separation with \FDGPET~ as our biomarker and maybe more specific ROI may lead us to a more concrete conclusion. 
 
-\begin{table}[!h]
+\begin{table}[]
 	\centering
 	\begin{tabular}{P{2.25cm}P{2.5cm}P{1.25cm}P{1.25cm}P{1.25cm}P{1.25cm}P{1.25cm}P{1.25cm}}
 		\hline
@@ -223,14 +223,14 @@ Kernel PCA~\citep{mika1998kernel} performed the best in remaining experiments. W
 		& NPV			&$ 94.52 $&$ 85.95 $&$ 80.37 $&$ 64.04 $&$ 72.78 $&$ 53.16 $\\
 		\hline
 	\end{tabular}
-	\caption{classification results with PCA, SVD and Kernel PCA (classifier : AD)}
+	\caption[Classification Results with PCA, SVD and Kernel PCA]{Classification Results with PCA, SVD and Kernel PCA. In this comparison we used Adaboost as a fixed classifier for all the reduction technique.}
 	\label{tab:comparision_dimension_reduction}
 \end{table}
 
 
-\subsection{Patch based  Stochastic Coordinate Coding}
+\subsection{Patch Based  Stochastic Coordinate Coding}
 \label{subsec:patch_based_scc}
-Having learned and classified the features using traditional feature extraction techniques we use another dimensionality reduction approach, Stochastic Coordinate Coding described in Section~\ref{subsec:theoritical_background} to learn a dictionary which allows us to store images more efficiently as a superposition of a small number of its elements so that each image is reduced to a small number of coefficient. 
+Having learned and classified the features using traditional feature extraction techniques we use another dimensionality reduction approach, Stochastic Coordinate Coding described in Section~\ref{sec:theoritical_background} to learn a dictionary which allows us to store images more efficiently as a superposition of a small number of its elements so that each image is reduced to a small number of coefficient. 
 We tested the framework described in Alg.~\ref{alg:pipeline2} in six classification experiments (1). AD vs CU, (2). AD vs EMCI, (3). AD vs LMCI, (4). CU vs EMCI, (5). CU vs LMCI and (6). CU vs EMCI. We made $ 8000 $ patches across the entire \FDGPET~Cerebral cortex to ensure overlapping and then selected $ 1000 $ random patches for initializing the dictionary. The sample size for AD vs CU, AD vs EMCI, AD vs LMCI, CU vs EMCI, CU vs LMCI and  vs EMCI is $ 332000 $, $ 324000 $, $ 304000 $, $ 344000 $,  $ 364000 $ and $ 336000 $. Our choice of patch size is $ 10\times 10\times 10 $ and the sample $ \times $ feature size for say AD vs CU is $ 344,000,000 $ which is a huge problem size, to tone down our features we down-sample the $ 10\times 10\times 10 $ patches by a $ 2\times 2\times 2 $ kernel and reduce the samples to $ 125 $. Figure.~\ref{fig:maxpooling}(b) shows the general idea of downsampling. After learning the 2000 dimension dictionary and sparse codes were learned, we applied max-pooling~\citep{scherer2010evaluation} to generate features for annotation. After feature reduction, the dimension of the dataset was reduced to a reasonable size and classification was performed.
 
 Yet again we extract the Age, Gender, Apo$E$2\footnote{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1243648/}~\citep{ghebranious2005detection,genin2011apoe}, Apo$E$3, and Functional Activities Questionnaire (FAQ) Scores for each sample for the purpose of comparison. To boost classification we use the combination of ``Voxel Feature'', ``Apo$E$2'', ``Apoe$E$3'', ``FAQ'', ``Age'' and ``Gender''. We test the accuracy of using only the voxels as features against using (voxels + Apo$ E $2 + Apoe$E$3 + FAQ) and (voxels + Apoe$E$2 + Apoe$ E $3 + FAQ + Age and Gender). The classification results are shown in Table.~\ref{tab:comparision_features}.
@@ -244,7 +244,7 @@ As indicated in Table.~\ref{tab:comparision_classifiers_scc} the \F~Score of AD 
 In case of experiments with a class separation of one i.e. AD vs EMCI and CU vs LMCI (column 2 and 5) Gaussian Process gives us the best results with \F~Score of \acc{83.27} and \acc{79.58}. In experiments with no class separability we see that AdaBoost and LinearSVM perform well with an \F~Score of \acc{78.5} in AD vs LMCI with AdaBoost and \F~Score of \acc{65.57} in CU vs EMCI with Linear SVM. 
 As seen from Table.~\ref{tab:comparision_classifiers_scc} Gaussian Process gives a bad Recall Score for CU vs EMCI, CU vs LMCI and EMCI vs LMCI and we can see the NPV to be low indicating that the classifier fails to classify the experiments. In the latter cases Adaboost and Linear SVM performs evenly well for both classes and outperforms some unstable classifiers.     
 
-\begin{table}[!h]
+\begin{table}[h]
 	\centering
 	\begin{tabular}{P{3cm}p{2.5cm}p{1.25cm}p{1.25cm}p{1.25cm}p{1.25cm}p{1.25cm}p{1.25cm}}
 		\hline
@@ -278,14 +278,14 @@ As seen from Table.~\ref{tab:comparision_classifiers_scc} Gaussian Process gives
 		& NPV			&$ 91.78 $&$ 91.01 $&$ 79.74 $&$ 60.11 $&$ 70.25 $&$ 52.53 $\\	
 		\hline
 	\end{tabular}
-	\caption{Classification results between different classifiers}
+	\caption[Classification Results between Classifiers using SCC]{Classification Results between different classifiers. Popular classifiers are used to perform analysis on the best feature set.}
 	\label{tab:comparision_classifiers_scc}
 \end{table}
 
 \textit{Comparing different number of features}\\
 In this comparison we refrain the results of experiments to only the voxel feature. We are more interested in the performance of SCC when the number of random patches are varied with regards to simplifying the image. The other factors responsible for boosting classification  essentially acts as non-factors if we wish to study dictionary learning for feature learning. As indicated in Table.~\ref{tab:comparision_features_scc} the \F~Score of AD vs CU is best when the number of features are more.
 
-\begin{table}[!h]
+\begin{table}[h]
 	\centering
 	\begin{tabular}{P{2.25cm}P{2.5cm}P{1.25cm}P{1.25cm}P{1.25cm}P{1.25cm}P{1.25cm}P{1.25cm}}
 		\hline
@@ -312,47 +312,47 @@ In this comparison we refrain the results of experiments to only the voxel featu
 		& NPV			&$ 94.52 $&$ 91.01 $&$ 77.84 $&$ 60.11 $&$ 74.68 $&$ 45.55 $\\
 		\hline
 		\end{tabular}
-	\caption{classification results between number of patches in training the dictionary and sparse codes.}
+	\caption{Classification Results between Number of Patches in Training the Dictionary and Sparse Codes.}
 	\label{tab:comparision_features_scc}
 \end{table}
 
-\subsection{AUC of ROC curves}
+\subsection{AUC of ROC Curves}
 Area under the Curve is used to measure receiver operating characteristic (ROC) curve. The area is a measure of the predictive power of the classification experiment to classify a  randomly chosen positive example more accurately than a randomly chosen negative example. ROC is the graphical plot between the true positive rate and the false positive rate, it was first used during World War 2 for detecting enemy objects from friendly ships and noise. Know as Signal detection theory, it measures the ability of radar receiver operators to identify enemy ships. 
 
 In this comparison we plot the AUC and compare both of our methods with and without demographics. The graphs show the superior accuracy of including rich features over only the regional voxel intensities. 
-\begin{figure}
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=\linewidth]{figures/AD_CU}
-	\caption[ROC for AD vs. CU]{Classification in AD vs. CU group with different features performance comparison with receiver operating characteristic (ROC) curves and area under curve (AUC) measures. The results for RD, mTBM and MMS features are computed with the proposed PASS method. Within the three statistics, the result of using the MMS feature performs better than others. Among all AUC measures, MMS feature achieved the best performance (AUC = 0.78).}
+	\caption[ROC for AD vs. CU]{Classification in AD vs. CU group with different features performance comparison with receiver operating characteristic (ROC) curves and area under curve (AUC) measures. The results for DR and DR + Demographic are computed with the proposed method in Alg.\ref{alg:pipeline1}and DL and DL + Demographic are computed with the proposed method in Alg.\ref{alg:pipeline2}. Within the four statistics, the result of using Feature Extraction with Voxles, APOE and FAQ are better than others. Among all AUC measures, DR+Demo feature achieved the best performance (AUC = 0.99).}
 	\label{fig:adcu}
 \end{figure}
-\begin{figure}
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=\linewidth]{figures/AD_EMCI}
-	\caption[ROC for AD vs. EMCI]{Classification in AD vs. CU group with different features performance comparison with receiver operating characteristic (ROC) curves and area under curve (AUC) measures. The results for RD, mTBM and MMS features are computed with the proposed PASS method. Within the three statistics, the result of using the MMS feature performs better than others. Among all AUC measures, MMS feature achieved the best performance (AUC = 0.78).}
+	\caption[ROC for AD vs. EMCI]{Classification in AD vs. CU group with different features performance comparison with receiver operating characteristic (ROC) curves and area under curve (AUC) measures. The results for DR and DR + Demographic are computed with the proposed method in Alg.\ref{alg:pipeline1}and DL and DL + Demographic are computed with the proposed method in Alg.\ref{alg:pipeline2}. Within the four statistics, the result of using Dictionary Learning with Voxles, APOE and FAQ are better than others.  Among all AUC measures, DL+Demo feature achieved the best performance (AUC = 0.93).}
 	\label{fig:ademci}
 \end{figure}
-\begin{figure}
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=\linewidth]{figures/AD_LMCI}
-	\caption[ROC for AD vs. LMCI]{Classification in AD vs. CU group with different features performance comparison with receiver operating characteristic (ROC) curves and area under curve (AUC) measures. The results for RD, mTBM and MMS features are computed with the proposed PASS method. Within the three statistics, the result of using the MMS feature performs better than others. Among all AUC measures, MMS feature achieved the best performance (AUC = 0.78).}
+	\caption[ROC for AD vs. LMCI]{Classification in AD vs. CU group with different features performance comparison with receiver operating characteristic (ROC) curves and area under curve (AUC) measures. The results for DR and DR + Demographic are computed with the proposed method in Alg.\ref{alg:pipeline1}and DL and DL + Demographic are computed with the proposed method in Alg.\ref{alg:pipeline2}. Within the four statistics, the result of using Feature Extraction with Voxles, APOE and FAQ are better than others. Among all AUC measures, DR+Demo feature achieved the best performance (AUC = 0.81).}
 	\label{fig:adlmci}
 \end{figure}
-\begin{figure}
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=\linewidth]{figures/CU_EMCI}
-	\caption[ROC for Normal vs. EMCI]{Classification in AD vs. CU group with different features performance comparison with receiver operating characteristic (ROC) curves and area under curve (AUC) measures. The results for RD, mTBM and MMS features are computed with the proposed PASS method. Within the three statistics, the result of using the MMS feature performs better than others. Among all AUC measures, MMS feature achieved the best performance (AUC = 0.78).}
+	\caption[ROC for Normal vs. EMCI]{Classification in AD vs. CU group with different features performance comparison with receiver operating characteristic (ROC) curves and area under curve (AUC) measures. The results for DR and DR + Demographic are computed with the proposed method in Alg.\ref{alg:pipeline1}and DL and DL + Demographic are computed with the proposed method in Alg.\ref{alg:pipeline2}. Within the four statistics, the result of using Feature Extraction with Voxles, APOE and FAQ are better than others. Among all AUC measures, DR+Demo feature achieved the best performance (AUC = 0.69).}
 	\label{fig:cuemci}
 \end{figure}
-\begin{figure}
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=\linewidth]{figures/CU_LMCI}
-	\caption[ROC for Normal vs. LMCI]{Classification in AD vs. CU group with different features performance comparison with receiver operating characteristic (ROC) curves and area under curve (AUC) measures. The results for RD, mTBM and MMS features are computed with the proposed PASS method. Within the three statistics, the result of using the MMS feature performs better than others. Among all AUC measures, MMS feature achieved the best performance (AUC = 0.78).}
+	\caption[ROC for Normal vs. LMCI]{Classification in AD vs. CU group with different features performance comparison with receiver operating characteristic (ROC) curves and area under curve (AUC) measures. The results for DR and DR + Demographic are computed with the proposed method in Alg.\ref{alg:pipeline1}and DL and DL + Demographic are computed with the proposed method in Alg.\ref{alg:pipeline2}. Within the four statistics, the result of using Dictionary Learning with Voxles, APOE and FAQ are better than others.  Among all AUC measures, DL+Demo feature achieved the best performance (AUC = 0.84).}
 	\label{fig:culmci}
 \end{figure}
-\begin{figure}
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=\linewidth]{figures/EMCI_LMCI}
-	\caption[ROC for EMCI vs. LMCI.]{Classification in AD vs. CU group with different features performance comparison with receiver operating characteristic (ROC) curves and area under curve (AUC) measures. The results for RD, mTBM and MMS features are computed with the proposed PASS method. Within the three statistics, the result of using the MMS feature performs better than others. Among all AUC measures, MMS feature achieved the best performance (AUC = 0.78).}
+	\caption[ROC for EMCI vs. LMCI.]{Classification in AD vs. CU group with different features performance comparison with receiver operating characteristic (ROC) curves and area under curve (AUC) measures. The results for DR and DR + Demographic are computed with the proposed method in Alg.\ref{alg:pipeline1}and DL and DL + Demographic are computed with the proposed method in Alg.\ref{alg:pipeline2}. Within the four statistics, the result of using Feature Extraction with Voxles, APOE and FAQ are better than others. Among all AUC measures, DR+Demo feature achieved the best performance (AUC = 0.64).}
 	\label{fig:emcilmci}
 \end{figure}

@@ -7,7 +7,7 @@ Section~\ref{sec:theoritical_background} in contraction describes different meth
 \section{Patch Based Dictionary Learning Pipeline}
 \label{sec:scc}
 
-This section introduces the computational algorithms of the patch based dictionary learning and sparse coding procedures in detail . Major steps are summarized in Alg. \ref{alg:pipeline1} and Fig. \ref{fig:pipeline}. 
+This section introduces the computational algorithms of the patch based dictionary learning and sparse coding procedures in detail . Major steps are summarized in Alg. \ref{alg:pipeline1} and Fig. \ref{fig:pipeline1}. 
 
 \subsection{Patch Generation for Dictionary Learning}
 \label{subsec:Patch_Generation_Dictionary_Learning}
@@ -44,9 +44,9 @@ In the first pipeline to find a better representation of the data in low class-s
 			}
 	}
 
-	$ X $ is then fed into the stochastic coordinate coding module. (Fig. \ref{fig:pipeline} (c2)).
+	$ X $ is then fed into the stochastic coordinate coding module. (Fig. \ref{fig:pipeline1}(c)).
 	
-	We apply max-pooling algorithm on the learned 2000-dimension dictionary to aggregate discriminant features (Fig. \ref{fig:pipeline} (d2)).
+	We apply max-pooling algorithm on the learned 2000-dimension dictionary to aggregate discriminant features (Fig. \ref{fig:pipeline1}(d)).
 	
 	Ada-Boost is used to classify the six binary classification experiments. 
 	}
@@ -115,15 +115,15 @@ Alg. \ref{alg:scc} summarizes the steps described in section \ref{sec:dictionary
 \section{Patch Based Dimensionality Reduction Pipeline}
 \label{sec:dimension_reduction}
 
-This section introduces the computational algorithms of the patch based feature extraction (dimensionality reduction) classification procedures in detail. Major steps are summarized in Alg.~\ref{alg:pipeline1} and Fig. \ref{fig:pipeline}. 
+This section introduces the computational algorithms of the patch based feature extraction (dimensionality reduction) classification procedures in detail. Major steps are summarized in Alg.~\ref{alg:pipeline1} and Fig. \ref{fig:pipeline2}. 
 
-\subsection{Patch Generation and feature selection}
+\subsection{Patch Generation and Feature Selection}
 \label{subsec:patch_generation}
 After we identify the region of interest as the cerebral cortex in the FDG-PET scans we are left with a 80 $ \times $ 95 $ \times $ 80 voxel intensities which represent the metabolic activity. For this study we choose the entire cerebral cortex as the basis for comparison or as we would call it the biomarker. The feature dimension with the FDG-PET data is much larger than the number of subjects and is therefore prone to overfitting. We first randomly generate a number of small 10 $ \times $ 10 $ \times $ 10 windows on each image volume to obtain a collection of small image patches with different amounts of overlap. The procedure is in fact equivalent to applying a high-pass filter to the original volume. As a result, the region of interest (ROI) are still present, but some low frequency signals have disappeared. 
 
 In the first pipeline we pool and arranged the patches into a linear array $ X_i = (x^1_i,\dots,x^n_i) $ where $ n $ is the number of feature and $ i \in \{1 \dots m\} $, where $ m $ is the number of samples in a group and stack them for the concerned group $ X = (X_1,\dots,X_i,\dots,X_m) $. The corresponding labels are also generated in this step $ Y = (y_1,\dots,y_m) $. We will then try to find out the linear and non-linear separability of the data using machine learning algorithms.
 
-Illustration of the patch selection procedure is shown in Fig. \ref{fig:pipeline} (c).
+Illustration of the patch selection procedure is shown in Fig. \ref{fig:patches} (b).
 
 \begin{algorithm}
 	\vspace{1em}
@@ -148,19 +148,19 @@ Illustration of the patch selection procedure is shown in Fig. \ref{fig:pipeline
 			
 			A number of patches are generated over the PET volume and overlapping is ensured
 			
-			All patch windows are max-pooled and linearly arranged into a vector $ B $(Fig.\ref{fig:pipeline} (c)).  
+			All patch windows are max-pooled and linearly arranged into a vector $ B $(Fig.\ref{fig:pipeline2} (b)).  
 			
 			$ X_{sample} \gets $ B. Where sample $ \in $ m
 		}
 		
-		In $ X $ the high dimensionality of the data is reduced by probabilistic PCA to avoid over fitting (Fig. \ref{fig:pipeline} (e)).
+		In $ X $ the high dimensionality of the data is reduced by probabilistic PCA to avoid over fitting (Fig. \ref{fig:pipeline2}(c)).
 		
 		classification of $ X $: sample $ \times $ features, $ Y $: labels, is performed by AdaBoost. 
 	}
 \end{algorithm}
 
 
-\subsection{Finding linear class separability}
+\subsection{Finding Linear Class Separability}
 \label{sec:dicsriminant_analysis}
 
 Having designed the training dataset $ X $ in section~\ref{subsec:patch_generation}, we can now use it for classification. However when a vast number of variables are measured from a relatively small dataset, the feature dimension is usually much larger than the sample size and the volume of the space increases so fast that the available data becomes sparse. In such a problem an enormous amount of data is required to ensure that there are several samples with each combination of values thus ensure no overfitting. With a fixed number of training samples, the predictive power reduces as the dimensionality increases. To overcome this issue we choose to effectively represent our data by reducing the dimensions of our feature space. In machine learning, dimensionality reduction is the introduction of new feature space where the original features are represented. The new space is of lower dimension that the original space. e.g., principle component analysis (PCA)~\citep{jolliffe2002principal}, linear discriminant analysis (LDA)~\citep{mika1999fisher}.
@@ -183,9 +183,16 @@ each observation variable, unlike PCA which treats covariance and variance simil
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=13cm]{figures/pipeline.png}
-	\caption{Pipelines for classification.}
-	\label{fig:pipeline}
+	\includegraphics[width=\linewidth]{figures/pipeline1.png}
+	\caption[Pipelines for Patch based Stochastic Coordinate Coding]{Pipelines for patch based Stochastic Coordinate Coding. (a). Patches are generated for feature extraction. (b). The size of patch dimension is reduced (c). After linearly arranging all the patches we find the dictionary and the sparse codes. (d). Maxpooling the learned sparse codes for obtaining a objective matrix. (e).applying AdaBoost for classification.}
+	\label{fig:pipeline1}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\linewidth]{figures/pipeline2.png}
+	\caption[Pipelines for Patch based Feature Extraction]{Pipelines for patch based feature extraction, (a). patches are generated for feature extraction. (b). patches are pooled to obtain specific activation. (c). the pooled values are linearly arranged and PCA is used to reduce it to a lower dimension space. (d). Adaboost is applied on the new feature space.}
+	\label{fig:pipeline2}
 \end{figure}
 
 \section{Assumptions}

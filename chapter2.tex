@@ -13,7 +13,7 @@ Although the three studies all aim to advance AD research, there is some differe
 \begin{figure}
 	\centering
 	\includegraphics[width=\linewidth]{figures/Imaging_Chart_PET.png}
-	\caption[Summary of clinical data and how it is collected.]{The summary of the clinical data for FDG-PET scans ADNI1 is indicated ny light green and the later phases ADNI 2 \& GO are represented by dark green. The typical timeline for image accusation is over 4-5 years and the initial phase is Screening and Baselines. Given the consistency of data for ADNI2 at Baseline we choose the latter for analysis.}
+	\caption[Summary of Clinical Data]{The summary of the clinical data for FDG-PET scans ADNI1 is indicated ny light green and the later phases ADNI 2 \& GO are represented by dark green. The typical timeline for image accusation is over 4-5 years and the initial phase is Screening and Baselines. Given the consistency of data for ADNI2 at Baseline we choose the latter for analysis.}
 	\label{fig:study_schedule}
 \end{figure}
  
@@ -33,13 +33,13 @@ To acquire \FDGPET data from the ADNI LONI website one has to complete an applic
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\linewidth]{figures/file_structure}
-	\caption[The file structure of downloaded data.]{The file structure of a participant.}
+	\caption[The File Structure of a Participant]{The File Structure of a Participant.}
 	\label{fig:filestructure}
 \end{figure}
 
 \begin{table}[t]
 	\begin{center}
-		\caption{Demographic information of $668$ studied subjects in ADNI2 baseline dataset.}\label{tab:demographic}
+		\caption{Demographic Information of $668$ Subjects in the ADNI2 Baseline Dataset.}\label{tab:demographic}
 		\begin{tabular}{|P{1.5cm}|P{1cm}P{1cm}P{2.25cm}P{3cm}P{1.25cm}P{1.25cm}P{1.25cm}|}
 			\hline
 			& Male & Female & Age & Min~/~Max Age & APOE1 & APOE2 & FAQ \\
@@ -64,7 +64,7 @@ For a patch based method to work on 3D images it requires that a significant por
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\linewidth]{figures/preprocessing}
-	\caption[Prepocessing pipeline.]{Preprocessing pipeline in FDG-PET. (a.) accuired data (b.) aligned \& normalized (c).skull stripped and segemented.}
+	\caption[Prepocessing Pipeline]{Preprocessing Pipeline in FDG-PET. (a.) accuired data (b.) aligned \& normalized (c).skull stripped and segemented.}
 	\label{fig:preprocessing}
 \end{figure}
     
@@ -72,7 +72,7 @@ Given a FDG-PET image, the alignment and the image segmentation are automaticall
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\linewidth]{figures/batching}
-	\caption[Code snippet for batching data into spm]{Code snippet for batching data into spm}
+	\caption[Code Snippet for Batching Data into SPM]{Code snippet for batching data into spm}
 	\label{fig:batching}
 \end{figure}
 
@@ -80,7 +80,7 @@ Second, we borrow a brain mask from SPM, an AAL template to decide which regions
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\linewidth]{figures/mask}
-	\caption[AAL mask used for segementation]{AAL mask used for segementation}
+	\caption[AAL Mask used for Segementation]{AAL mask used for segementation}
 	\label{fig:mask}
 \end{figure}
 

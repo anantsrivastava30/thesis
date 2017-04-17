@@ -1,0 +1,20 @@
+Figure\nobreakspace {}\hfill Page \par 
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Different types of P.E.T Scans\relax }}{5}{figure.caption.1}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Summary of Clinical Data}}{8}{figure.caption.2}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces The File Structure of a Participant}}{10}{figure.caption.4}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Prepocessing Pipeline}}{12}{figure.caption.6}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Code Snippet for Batching Data into SPM}}{13}{figure.caption.7}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces AAL Mask used for Segementation}}{14}{figure.caption.8}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Biomarkers vs. Dementia}}{19}{figure.caption.9}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces One Iteration of SCC}}{22}{figure.caption.10}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Maxpooling and Downsampeling.}}{23}{figure.caption.11}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Illustration of the AdoBoost Algorithm.}}{25}{figure.caption.12}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Pipelines for Patch based Stochastic Coordinate Coding}}{36}{figure.caption.16}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Pipelines for Patch based Feature Extraction}}{37}{figure.caption.17}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Unstructured and Structured patches in Axial, Sagittal and Coronal view of the brain.}}{41}{figure.caption.18}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces ROC for AD vs. CU}}{56}{figure.caption.26}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces ROC for AD vs. EMCI}}{57}{figure.caption.27}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces ROC for AD vs. LMCI}}{58}{figure.caption.28}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces ROC for Normal vs. EMCI}}{59}{figure.caption.29}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces ROC for Normal vs. LMCI}}{60}{figure.caption.30}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces ROC for EMCI vs. LMCI.}}{61}{figure.caption.31}

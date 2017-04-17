@@ -1,0 +1,40 @@
+\nobreakspace {}\hfill Page\par 
+\contentsline {part}{LIST OF TABLES}{vi}{Doc-Start}
+\contentsline {part}{LIST OF FIGURES}{vii}{Doc-Start}
+CHAPTER \par 
+\contentsline {chapter}{\numberline {1}{\MakeUppercase {Introduction}}}{1}{chapter.1}
+\contentsline {chapter}{\numberline {2}{\MakeUppercase {Subjects and Data Preprocessing}}}{7}{chapter.2}
+\contentsline {section}{\numberline {2.1}Subjects}{7}{section.2.1}
+\contentsline {section}{\numberline {2.2}Data Gathering}{9}{section.2.2}
+\contentsline {section}{\numberline {2.3}Image Preproceessing}{11}{section.2.3}
+\contentsline {chapter}{\numberline {3}{\MakeUppercase {Methods and Background}}}{15}{chapter.3}
+\contentsline {section}{\numberline {3.1}Background}{15}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Problem Background}{15}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}History of M.L. and FDG-PET}{16}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Biomarker}{18}{subsection.3.1.3}
+\contentsline {section}{\numberline {3.2}Methods}{19}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Dictionary Learning and Sparse Coding}{20}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Max-Pooling}{21}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Dimension Reduction}{24}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}AdaBoost}{24}{subsection.3.2.4}
+\contentsline {chapter}{\numberline {4}{\MakeUppercase {Algorithms}}}{28}{chapter.4}
+\contentsline {section}{\numberline {4.1}Patch Based Dictionary Learning Pipeline}{28}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Patch Generation for Dictionary Learning}{28}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Finding Dictionary and Sparse Codes}{29}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2}Patch Based Dimensionality Reduction Pipeline}{32}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Patch Generation and Feature Selection}{32}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Finding Linear Class Separability}{33}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Assumptions}{37}{section.4.3}
+\contentsline {chapter}{\numberline {5}{\MakeUppercase {Experiments and Results}}}{39}{chapter.5}
+\contentsline {section}{\numberline {5.1}Experimental Setup}{39}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}System Configuration}{41}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Languages and Software used.}{42}{subsection.5.1.2}
+\contentsline {section}{\numberline {5.2}Results}{43}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Comparison between Sets of Features.}{45}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Pooling and Dimension Reduction}{47}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Patch Based Stochastic Coordinate Coding}{49}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}AUC of ROC Curves}{51}{subsection.5.2.4}
+\contentsline {chapter}{\numberline {6}{\MakeUppercase {Discussion and Limitations}}}{62}{chapter.6}
+\contentsline {chapter}{\numberline {7}{\MakeUppercase {Conclusion}}}{64}{chapter.7}
+\contentsline {chapter}{\numberline {8}{\MakeUppercase {Future Work}}}{65}{chapter.8}
+\contentsline {part}{REFERENCES}{66}{Item.20}

@@ -1,0 +1,10 @@
+Table\nobreakspace {}\hfill Page \par 
+\contentsline {table}{\numberline {2.1}{\ignorespaces Participant Stages across ADNI 1/GO/2.}}{9}{table.caption.3}
+\contentsline {table}{\numberline {2.2}{\ignorespaces Demographic Information of $668$ Subjects in the ADNI2 Baseline Dataset.\relax }}{10}{table.caption.5}
+\contentsline {table}{\numberline {5.1}{\ignorespaces System Configurations\relax }}{42}{table.caption.19}
+\contentsline {table}{\numberline {5.2}{\ignorespaces The Confusion Matrix\relax }}{44}{table.caption.20}
+\contentsline {table}{\numberline {5.3}{\ignorespaces Comparison Results between Sets of Features}}{46}{table.caption.21}
+\contentsline {table}{\numberline {5.4}{\ignorespaces Classification Results between Classifiers using Feature Extraction}}{52}{table.caption.22}
+\contentsline {table}{\numberline {5.5}{\ignorespaces Classification Results with PCA, SVD and Kernel PCA}}{53}{table.caption.23}
+\contentsline {table}{\numberline {5.6}{\ignorespaces Classification Results between Classifiers using SCC}}{54}{table.caption.24}
+\contentsline {table}{\numberline {5.7}{\ignorespaces Classification Results between Number of Patches in Training the Dictionary and Sparse Codes.\relax }}{55}{table.caption.25}

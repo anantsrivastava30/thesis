@@ -1,0 +1,289 @@
+\begin{thebibliography}{52}
+\newcommand{\enquote}[1]{``#1''}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+
+\bibitem[Boureau \emph{et~al.}(2010)]{boureau2010theoretical}
+Boureau, Y.-L., J.~Ponce and Y.~LeCun, \enquote{A theoretical analysis of
+  feature pooling in visual recognition}, in \enquote{Proceedings of the 27th
+  international conference on machine learning (ICML-10)}, pp. 111--118 (2010).
+
+\bibitem[Burns and Iliffe(2009)]{Burns:2009}
+Burns, D.-A. and S.~Iliffe, \enquote{Enfermedad de {A}lzheimer},  pp. 338,
+  b158. (2009).
+
+\bibitem[Coates and Ng(2011)]{coates2011importance}
+Coates, A. and A.~Y. Ng, \enquote{The importance of encoding versus training
+  with sparse coding and vector quantization}, in \enquote{Proceedings of the
+  28th International Conference on Machine Learning (ICML-11)}, pp. 921--928
+  (2011).
+
+\bibitem[Coup{\'e} \emph{et~al.}(2011)]{coupe2011patch}
+Coup{\'e}, P., J.~V. Manj{\'o}n, V.~Fonov, J.~Pruessner, M.~Robles and D.~L.
+  Collins, \enquote{Patch-based segmentation using expert priors: Application
+  to hippocampus and ventricle segmentation}, NeuroImage \textbf{54}, 2,
+  940--954 (2011).
+
+\bibitem[Fawcett(2004)]{fawcett2004roc}
+Fawcett, T., \enquote{Roc graphs: Notes and practical considerations for
+  researchers}, Machine learning \textbf{31}, 1, 1--38 (2004).
+
+\bibitem[Freund \emph{et~al.}(1996)]{freund1996experiments}
+Freund, Y., R.~E. Schapire \emph{et~al.}, \enquote{Experiments with a new
+  boosting algorithm}, in \enquote{icml}, vol.~96, pp. 148--156 (1996).
+
+\bibitem[Friedman \emph{et~al.}(2001)]{friedman2001elements}
+Friedman, J., T.~Hastie and R.~Tibshirani, \emph{The elements of statistical
+  learning}, vol.~1 (Springer series in statistics Springer, Berlin, 2001).
+
+\bibitem[Friedman \emph{et~al.}(2008)]{friedman2008sparse}
+Friedman, J., T.~Hastie and R.~Tibshirani, \enquote{Sparse inverse covariance
+  estimation with the graphical lasso}, Biostatistics \textbf{9}, 3, 432--441
+  (2008).
+
+\bibitem[Genin \emph{et~al.}(2011)]{genin2011apoe}
+Genin, E., D.~Hannequin, D.~Wallon, K.~Sleegers, M.~Hiltunen, O.~Combarros,
+  M.~J. Bullido, S.~Engelborghs, P.~De~Deyn, C.~Berr \emph{et~al.},
+  \enquote{Apoe and alzheimer disease: a major gene with semi-dominant
+  inheritance}, Molecular psychiatry \textbf{16}, 9, 903--907 (2011).
+
+\bibitem[Ghebranious \emph{et~al.}(2005)]{ghebranious2005detection}
+Ghebranious, N., L.~Ivacic, J.~Mallum and C.~Dokken, \enquote{Detection of apoe
+  e2, e3 and e4 alleles using maldi-tof mass spectrometry and the homogeneous
+  mass-extend technology}, Nucleic acids research \textbf{33}, 17, e149--e149
+  (2005).
+
+\bibitem[Guyon \emph{et~al.}(2008)]{guyon2008feature}
+Guyon, I., S.~Gunn, M.~Nikravesh and L.~A. Zadeh, \emph{Feature extraction:
+  foundations and applications}, vol. 207 (Springer, 2008).
+
+\bibitem[Herholz \emph{et~al.}(2002)]{herholz2002discrimination}
+Herholz, K., E.~Salmon, D.~Perani, J.~Baron, V.~Holthoff, L.~Fr{\"o}lich,
+  P.~Sch{\"o}nknecht, K.~Ito, R.~Mielke, E.~Kalbe \emph{et~al.},
+  \enquote{Discrimination between alzheimer dementia and controls by automated
+  analysis of multicenter fdg pet}, Neuroimage \textbf{17}, 1, 302--316 (2002).
+
+\bibitem[Higdon \emph{et~al.}(2004)]{higdon2004comparison}
+Higdon, R., N.~L. Foster, R.~A. Koeppe, C.~S. DeCarli, W.~J. Jagust, C.~M.
+  Clark, N.~R. Barbas, S.~E. Arnold, R.~S. Turner, J.~L. Heidebrink
+  \emph{et~al.}, \enquote{A comparison of classification methods for
+  differentiating fronto-temporal dementia from alzheimer's disease using
+  fdg-pet imaging}, Statistics in medicine \textbf{23}, 2, 315--326 (2004).
+
+\bibitem[Ill{\'a}n \emph{et~al.}(2011)]{illan201118}
+Ill{\'a}n, I., J.~M. G{\'o}rriz, J.~Ram{\'\i}rez, D.~Salas-Gonzalez,
+  M.~L{\'o}pez, F.~Segovia, R.~Chaves, M.~G{\'o}mez-Rio, C.~G. Puntonet,
+  A.~D.~N. Initiative \emph{et~al.}, \enquote{18 f-fdg pet imaging analysis for
+  computer aided alzheimer’s diagnosis}, Information Sciences \textbf{181},
+  4, 903--916 (2011).
+
+\bibitem[Ishii(2002)]{ishii2002clinical}
+Ishii, K., \enquote{Clinical application of positron emission tomography for
+  diagnosis of dementia}, Annals of nuclear medicine \textbf{16}, 8, 515--525
+  (2002).
+
+\bibitem[Ishii(2014)]{ishii2014pet}
+Ishii, K., \enquote{Pet approaches for diagnosis of dementia}, American Journal
+  of Neuroradiology \textbf{35}, 11, 2030--2038 (2014).
+
+\bibitem[Jain and Zongker(1997)]{jain1997feature}
+Jain, A. and D.~Zongker, \enquote{Feature selection: Evaluation, application,
+  and small sample performance}, IEEE transactions on pattern analysis and
+  machine intelligence \textbf{19}, 2, 153--158 (1997).
+
+\bibitem[Jolliffe(2002)]{jolliffe2002principal}
+Jolliffe, I., \emph{Principal component analysis} (Wiley Online Library, 2002).
+
+\bibitem[Kakimoto \emph{et~al.}(2011)]{kakimoto2011new}
+Kakimoto, A., Y.~Kamekawa, S.~Ito, E.~Yoshikawa, H.~Okada, S.~Nishizawa,
+  S.~Minoshima and Y.~Ouchi, \enquote{New computer-aided diagnosis of dementia
+  using positron emission tomography: brain regional sensitivity-mapping
+  method}, PloS one \textbf{6}, 9, e25033 (2011).
+
+\bibitem[Langbaum \emph{et~al.}(2013)]{langbaum2013ushering}
+Langbaum, J.~B., A.~S. Fleisher, K.~Chen, N.~Ayutyanont, F.~Lopera, Y.~T.
+  Quiroz, R.~J. Caselli, P.~N. Tariot and E.~M. Reiman, \enquote{Ushering in
+  the study and treatment of preclinical alzheimer disease}, Nature Reviews
+  Neurology \textbf{9}, 7, 371--381 (2013).
+
+\bibitem[Lee \emph{et~al.}(2014)]{lee2014parametric}
+Lee, S.-h., H.~Park \emph{et~al.}, \enquote{Parametric response mapping of
+  longitudinal pet scans and their use in detecting changes in alzheimer’s
+  diseases}, Biomedical Engineering Letters \textbf{4}, 1, 73--79 (2014).
+
+\bibitem[Lin \emph{et~al.}(2014)]{lin2014stochastic}
+Lin, B., Q.~Li, Q.~Sun, M.-J. Lai, I.~Davidson, W.~Fan and J.~Ye,
+  \enquote{Stochastic coordinate coding and its application for drosophila gene
+  expression pattern annotation}, arXiv preprint arXiv:1407.8147  (2014).
+
+\bibitem[Liu and Motoda(2007)]{liu2007computational}
+Liu, H. and H.~Motoda, \emph{Computational methods of feature selection} (CRC
+  Press, 2007).
+
+\bibitem[Lu \emph{et~al.}(2017)]{lu2017early}
+Lu, S., Y.~Xia, W.~Cai, M.~Fulham, D.~D. Feng, A.~D.~N. Initiative
+  \emph{et~al.}, \enquote{Early identification of mild cognitive impairment
+  using incomplete random forest-robust support vector machine and fdg-pet
+  imaging}, Computerized Medical Imaging and Graphics  (2017).
+
+\bibitem[Lv \emph{et~al.}(2015{\natexlab{a}})]{lv2015holistic}
+Lv, J., X.~Jiang, X.~Li, D.~Zhu, S.~Zhang, S.~Zhao, H.~Chen, T.~Zhang, X.~Hu,
+  J.~Han \emph{et~al.}, \enquote{Holistic atlases of functional networks and
+  interactions reveal reciprocal organizational architecture of cortical
+  function}, IEEE Transactions on Biomedical Engineering \textbf{62}, 4,
+  1120--1131 (2015{\natexlab{a}}).
+
+\bibitem[Lv \emph{et~al.}(2015{\natexlab{b}})]{lv2015modeling}
+Lv, J., B.~Lin, W.~Zhang, X.~Jiang, X.~Hu, J.~Han, L.~Guo, J.~Ye and T.~Liu,
+  \enquote{Modeling task fmri data via supervised stochastic coordinate
+  coding}, in \enquote{International Conference on Medical Image Computing and
+  Computer-Assisted Intervention}, pp. 239--246 (Springer, 2015{\natexlab{b}}).
+
+\bibitem[Mairal \emph{et~al.}(2009)]{mairal2009online}
+Mairal, J., F.~Bach, J.~Ponce and G.~Sapiro, \enquote{Online dictionary
+  learning for sparse coding}, in \enquote{Proceedings of the 26th annual
+  international conference on machine learning}, pp. 689--696 (ACM, 2009).
+
+\bibitem[Masaeli \emph{et~al.}(2010)]{masaeli2010transformation}
+Masaeli, M., J.~G. Dy and G.~M. Fung, \enquote{From transformation-based
+  dimensionality reduction to feature selection}, in \enquote{Proceedings of
+  the 27th International Conference on Machine Learning (ICML-10)}, pp.
+  751--758 (2010).
+
+\bibitem[Mika \emph{et~al.}(1999)]{mika1999fisher}
+Mika, S., G.~Ratsch, J.~Weston, B.~Scholkopf and K.-R. Mullers, \enquote{Fisher
+  discriminant analysis with kernels}, in \enquote{Neural Networks for Signal
+  Processing IX, 1999. Proceedings of the 1999 IEEE Signal Processing Society
+  Workshop.}, pp. 41--48 (IEEE, 1999).
+
+\bibitem[Mika \emph{et~al.}(1998)]{mika1998kernel}
+Mika, S., B.~Sch{\"o}lkopf, A.~J. Smola, K.-R. M{\"u}ller, M.~Scholz and
+  G.~R{\"a}tsch, \enquote{Kernel pca and de-noising in feature spaces.}, in
+  \enquote{NIPS}, vol.~11, pp. 536--542 (1998).
+
+\bibitem[Moody \emph{et~al.}(2012)]{moody2012unsupervised}
+Moody, D.~I., S.~P. Brumby, J.~C. Rowland and C.~Gangodagamage,
+  \enquote{Unsupervised land cover classification in multispectral imagery with
+  sparse representations on learned dictionaries}, in \enquote{Applied Imagery
+  Pattern Recognition Workshop (AIPR), 2012 IEEE}, pp. 1--10 (IEEE, 2012).
+
+\bibitem[Morris(1993)]{morris1993clinical}
+Morris, J.~C., \enquote{The clinical dementia rating (cdr): current version and
+  scoring rules.}, Neurology  (1993).
+
+\bibitem[Mueller \emph{et~al.}(2005)]{mueller2005ways}
+Mueller, S.~G., M.~W. Weiner, L.~J. Thal, R.~C. Petersen, C.~R. Jack,
+  W.~Jagust, J.~Q. Trojanowski, A.~W. Toga and L.~Beckett, \enquote{Ways toward
+  an early diagnosis in alzheimer’s disease: the alzheimer’s disease
+  neuroimaging initiative (adni)}, Alzheimer's \& Dementia \textbf{1}, 1,
+  55--66 (2005).
+
+\bibitem[Penny \emph{et~al.}(2011)]{penny2011statistical}
+Penny, W.~D., K.~J. Friston, J.~T. Ashburner, S.~J. Kiebel and T.~E. Nichols,
+  \emph{Statistical parametric mapping: the analysis of functional brain
+  images} (Academic press, 2011).
+
+\bibitem[Rabinovici \emph{et~al.}(2011)]{rabinovici2011amyloid}
+Rabinovici, G., H.~Rosen, A.~Alkalay, J.~Kornak, A.~Furst, N.~Agarwal,
+  E.~Mormino, J.~O'neil, M.~Janabi, A.~Karydas \emph{et~al.}, \enquote{Amyloid
+  vs fdg-pet in the differential diagnosis of ad and ftld}, Neurology
+  \textbf{77}, 23, 2034--2042 (2011).
+
+\bibitem[Rasmussen(2006)]{rasmussen2006gaussian}
+Rasmussen, C.~E., \enquote{Gaussian processes for machine learning},   (2006).
+
+\bibitem[Rojas(2009)]{rojas2009adaboost}
+Rojas, R., \enquote{Adaboost and the super bowl of classifiers a tutorial
+  introduction to adaptive boosting}, Freie University, Berlin, Tech. Rep
+  (2009).
+
+\bibitem[Schapire(2013)]{schapire2013explaining}
+Schapire, R.~E., \enquote{Explaining adaboost}, in \enquote{Empirical
+  inference}, pp. 37--52 (Springer, 2013).
+
+\bibitem[Scherer \emph{et~al.}(2010)]{scherer2010evaluation}
+Scherer, D., A.~M{\"u}ller and S.~Behnke, \enquote{Evaluation of pooling
+  operations in convolutional architectures for object recognition}, in
+  \enquote{International Conference on Artificial Neural Networks}, pp. 92--101
+  (Springer, 2010).
+
+\bibitem[Schnass and Vandergheynst(2008)]{schnass2008dictionary}
+Schnass, K. and P.~Vandergheynst, \enquote{Dictionary learning based
+  dimensionality reduction for classification}, in \enquote{Communications,
+  Control and Signal Processing, 2008. ISCCSP 2008. 3rd International Symposium
+  on}, pp. 780--785 (IEEE, 2008).
+
+\bibitem[Shawe-Taylor and Cristianini(2004)]{shawe2004kernel}
+Shawe-Taylor, J. and N.~Cristianini, \emph{Kernel methods for pattern analysis}
+  (Cambridge university press, 2004).
+
+\bibitem[Shi \emph{et~al.}(2014)]{shi2014genetic}
+Shi, J., N.~Lepor{\'e}, B.~A. Gutman, P.~M. Thompson, L.~C. Baxter, R.~J.
+  Caselli and Y.~Wang, \enquote{Genetic influence of apolipoprotein e4 genotype
+  on hippocampal morphometry: An n= 725 surface-based alzheimer's disease
+  neuroimaging initiative study}, Human brain mapping \textbf{35}, 8,
+  3903--3918 (2014).
+
+\bibitem[Swets(1979)]{swets1979roc}
+Swets, J.~A., \enquote{Roc analysis applied to the evaluation of medical
+  imaging techniques.}, Investigative radiology \textbf{14}, 2, 109--121
+  (1979).
+
+\bibitem[Tang \emph{et~al.}(2014)]{tang2014feature}
+Tang, J., S.~Alelyani and H.~Liu, \enquote{Feature selection for
+  classification: A review}, Data Classification: Algorithms and Applications
+  p.~37 (2014).
+
+\bibitem[Tibshirani(1996)]{tibshirani1996regression}
+Tibshirani, R., \enquote{Regression shrinkage and selection via the lasso},
+  Journal of the Royal Statistical Society. Series B (Methodological) pp.
+  267--288 (1996).
+
+\bibitem[Tipping and Bishop(1999)]{tipping1999mixtures}
+Tipping, M.~E. and C.~M. Bishop, \enquote{Mixtures of probabilistic principal
+  component analyzers}, Neural computation \textbf{11}, 2, 443--482 (1999).
+
+\bibitem[Weiner \emph{et~al.}(2013)]{weiner2013alzheimer}
+Weiner, M.~W., D.~P. Veitch, P.~S. Aisen, L.~A. Beckett, N.~J. Cairns, R.~C.
+  Green, D.~Harvey, C.~R. Jack, W.~Jagust, E.~Liu \emph{et~al.}, \enquote{The
+  alzheimer's disease neuroimaging initiative: a review of papers published
+  since its inception}, Alzheimer's \& Dementia \textbf{9}, 5, e111--e194
+  (2013).
+
+\bibitem[Yin \emph{et~al.}(2008)]{yin2008bregman}
+Yin, W., S.~Osher, D.~Goldfarb and J.~Darbon, \enquote{Bregman iterative
+  algorithms for $\backslash$ell\_1-minimization with applications to
+  compressed sensing}, SIAM Journal on Imaging sciences \textbf{1}, 1, 143--168
+  (2008).
+
+\bibitem[Zhang \emph{et~al.}(2016{\natexlab{a}})]{zhang2016hyperbolic}
+Zhang, J., J.~Shi, C.~Stonnington, Q.~Li, B.~A. Gutman, K.~Chen, E.~M. Reiman,
+  R.~Caselli, P.~M. Thompson, J.~Ye \emph{et~al.}, \enquote{Hyperbolic space
+  sparse coding with its application on prediction of alzheimer’s disease in
+  mild cognitive impairment}, in \enquote{International Conference on Medical
+  Image Computing and Computer-Assisted Intervention}, pp. 326--334 (Springer,
+  2016{\natexlab{a}}).
+
+\bibitem[Zhang \emph{et~al.}(2016{\natexlab{b}})]{zhang2016applying}
+Zhang, J., C.~Stonnington, Q.~Li, J.~Shi, R.~J. Bauer, B.~A. Gutman, K.~Chen,
+  E.~M. Reiman, P.~M. Thompson, J.~Ye \emph{et~al.}, \enquote{Applying sparse
+  coding to surface multivariate tensor-based morphometry to predict future
+  cognitive decline}, in \enquote{Biomedical Imaging (ISBI), 2016 IEEE 13th
+  International Symposium on}, pp. 646--650 (IEEE, 2016{\natexlab{b}}).
+
+\bibitem[Zhang and Li(2010)]{zhang2010discriminative}
+Zhang, Q. and B.~Li, \enquote{Discriminative k-svd for dictionary learning in
+  face recognition}, in \enquote{Computer Vision and Pattern Recognition
+  (CVPR), 2010 IEEE Conference on}, pp. 2691--2698 (IEEE, 2010).
+
+\bibitem[Zhang \emph{et~al.}(2016{\natexlab{c}})]{zhang2016morphometric}
+Zhang, W., J.~Shi, C.~Stonnington, R.~J. Bauer, B.~A. Gutman, K.~Chen, P.~M.
+  Thompson, E.~M. Reiman, R.~J. Caselli and Y.~Wang, \enquote{Morphometric
+  analysis of hippocampus and lateral ventricle reveals regional difference
+  between cognitively stable and declining persons}, in \enquote{Biomedical
+  Imaging (ISBI), 2016 IEEE 13th International Symposium on}, pp. 14--18 (IEEE,
+  2016{\natexlab{c}}).
+
+\end{thebibliography}

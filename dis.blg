@@ -1,0 +1,25 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: dis.aux
+A level-1 auxiliary file: abstract.aux
+A level-1 auxiliary file: ack.aux
+A level-1 auxiliary file: chapter1.aux
+A level-1 auxiliary file: chapter2.aux
+A level-1 auxiliary file: chapter3.aux
+A level-1 auxiliary file: chapter4.aux
+A level-1 auxiliary file: chapter5.aux
+A level-1 auxiliary file: chapter6.aux
+A level-1 auxiliary file: chapter7.aux
+The style file: asudis.bst
+A level-1 auxiliary file: appendix1.aux
+A level-1 auxiliary file: vita.aux
+Database file #1: dis.bib
+Repeated entry---line 252 of file dis.bib
+ : @book{jolliffe2002principal
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 365 of file dis.bib
+ : @inproceedings{lv2015modeling
+ :                              ,
+I'm skipping whatever remains of this entry
+Warning--empty journal in Burns:2009
+Warning--empty journal in rasmussen2006gaussian
+(There were 2 error messages)
